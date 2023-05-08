@@ -1,0 +1,11 @@
+name: OtherworldlyTunes
+version: '${project.version}'
+main: com.github.johnydecoder.otherworldlytunes.OtherworldlyTunes
+api-version: 1.19
+author: JohnyDecoder
+description: A plugin that plays ambient music from a web server.
+commands:
+  otherworldlytunes:
+    description: Plays ambient music from a web server.
+    usage: /<command>
+    aliases: [ot, owt, otherworldlytunes, tunes, music, ambientmusic]
